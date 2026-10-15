@@ -7,7 +7,7 @@
 <a href="https://github.com/labiba26"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Dehradun,_India-6C63FF?style=for-the-badge&logo=googlemaps&logoColor=white"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=6C63FF&center=true&vCenter=true&width=700&lines=Vision-Language+Models+for+Clinical+Report+Generation;Multimodal+Representation+Learning;Explainable%2C+Clinically-Grounded+AI;MTech+AI+%40+IIT+Jodhpur+%7C+Rank+9%2F240" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=6C63FF&center=true&vCenter=true&width=700&lines=Grounded%2C+Verifiable+Pathology+Report+Generation;Multimodal+Representation+Learning;Explainable%2C+Clinically-Grounded+AI;MTech+AI+%40+IIT+Jodhpur+%7C+Rank+9%2F240" alt="Typing SVG" />
 
 </div>
 
@@ -15,10 +15,10 @@
 
 ## About Me
 
-I'm an MTech Artificial Intelligence student at **IIT Jodhpur**, working at the intersection of **medical imaging** and **computer vision**. My research centers on vision-language models for clinical report generation, multimodal representation learning, and building AI that is explainable and clinically trustworthy — because in medicine, being right isn't enough; a model has to show its reasoning.
+I'm an MTech Artificial Intelligence student at **IIT Jodhpur**, working at the intersection of **medical imaging** and **computer vision**. My research centers on generating clinical reports from images in a way that can be checked, multimodal representation learning, and building AI that is explainable and clinically trustworthy — because in medicine, being right isn't enough; a model has to show what its claims rest on.
 
-- 🔬 Currently writing my MTech thesis: **"Pathologist Reasoning-Guided Report Generation"** — teaching models to reason over histopathology images the way a pathologist does
-- 🧬 Working with **whole-slide histopathology images** (TCGA-COAD, TCGA-READ) and the **UNI2-h** foundation model as a visual backbone
+- 🔬 Currently working on my MTech project: **"Grounded, Not Just Fluent: Verifiable Report Generation from Colorectal Cancer Whole-Slide Images"** — writing reports from predicted findings and automatically checking each report against them
+- 🧬 Working with **whole-slide histopathology images** (TCGA-COAD, TCGA-READ, external test on CPTAC-COAD) and **UNI2-h** foundation-model features with attention-based multiple-instance learning
 - 🧠 Broadly interested in generative & representation-learning methods — latent-variable models, attention architectures — for data-scarce, high-stakes medical imaging problems
 - 🎓 Applying for PhD positions in Medical Imaging & Computer Vision
 - ⚡ Also spent 2 years as an AI & Data Analyst building fault-prediction and anomaly-detection systems for hydro turbines
@@ -33,7 +33,7 @@ I'm an MTech Artificial Intelligence student at **IIT Jodhpur**, working at the 
 <td>
 <b>MTech, Artificial Intelligence</b> — Indian Institute of Technology Jodhpur<br/>
 CGPA: 8.8 · Departmental Rank: <b>9 / 240</b><br/>
-<i>Thesis: Pathologist Reasoning-Guided Report Generation</i>
+<i>Project: Grounded, Not Just Fluent — Verifiable Report Generation for Colorectal Cancer</i>
 </td>
 </tr>
 <tr>
@@ -53,10 +53,10 @@ CGPA: 8.17
 <tr>
 <td width="50%" valign="top">
 
-**🩺 Pathologist Reasoning-Guided Report Generation**
-*MTech Thesis, IIT Jodhpur · Aug 2026 – Present*
+**🩺 Grounded, Not Just Fluent: Verifiable Report Generation for Colorectal Cancer**
+*MTech Project, IIT Jodhpur · Aug 2026 – Present*
 
-Incorporating a pathologist's diagnostic reasoning into automated histopathology report generation for more accurate, interpretable, clinically trustworthy outputs. Built on UNI2-h patch-level embeddings over TCGA colorectal cancer cohorts, with a focus on hallucination analysis and vision-language interpretability.
+Predicts findings (tumour type, grade, depth, node status) from UNI2-h slide features over TCGA colorectal cohorts, writes pathology reports from those findings, and checks each report with an automatic consistency checker. Includes an external test on CPTAC-COAD, confidence and abstention analysis, and hallucination analysis. [Code and decision log →](https://github.com/labiba26/Grounded-crc-reports)
 
 </td>
 <td width="50%" valign="top">
@@ -113,9 +113,9 @@ Data Analyst & UX Designer on a public-health app with **25k+ downloads**. Model
 
 ## 🛠️ Skills
 
-**Medical Imaging & Vision-Language**
+**Medical Imaging & Report Generation**
 <br/>
-![Clinical Report Generation](https://img.shields.io/badge/-Clinical%20Report%20Generation-6C63FF?style=flat-square) ![VLM](https://img.shields.io/badge/-Vision--Language%20Modeling-6C63FF?style=flat-square) ![WSI](https://img.shields.io/badge/-Whole--Slide%20Image%20Analysis-6C63FF?style=flat-square) ![UNI2-h](https://img.shields.io/badge/-UNI2--h-6C63FF?style=flat-square) ![TCGA](https://img.shields.io/badge/-TCGA%20(COAD%2C%20READ)-6C63FF?style=flat-square) ![XAI](https://img.shields.io/badge/-Explainable%20AI-6C63FF?style=flat-square)
+![Clinical Report Generation](https://img.shields.io/badge/-Clinical%20Report%20Generation-6C63FF?style=flat-square) ![MIL](https://img.shields.io/badge/-Multiple--Instance%20Learning-6C63FF?style=flat-square) ![WSI](https://img.shields.io/badge/-Whole--Slide%20Image%20Analysis-6C63FF?style=flat-square) ![UNI2-h](https://img.shields.io/badge/-UNI2--h-6C63FF?style=flat-square) ![TCGA](https://img.shields.io/badge/-TCGA%20(COAD%2C%20READ)-6C63FF?style=flat-square) ![XAI](https://img.shields.io/badge/-Explainable%20AI-6C63FF?style=flat-square)
 
 **Languages & ML Libraries**
 <br/>
